@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.env
+
+# Data & large artifacts (keep repo light — link to Drive instead)
+data/
+datasets/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+outputs/*.png
+outputs/*.jpg
+!outputs/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
